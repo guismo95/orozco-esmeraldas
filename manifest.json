@@ -1,0 +1,15 @@
+{
+  "name": "Orozco Esmeraldas",
+  "short_name": "Esmeraldas",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007f5f",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
