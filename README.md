@@ -11,7 +11,7 @@ Sitio web oficial de Orozco Esmeraldas, empresa dedicada al tallado profesional 
 ## 🌐 Página web
 
 🔗 Accede a la landing page:  
-https://TU_USUARIO.github.io/orozco-esmeraldas/
+https://guismo95.github.io/orozco-esmeraldas/
 
 ## 🛠️ Tecnologías utilizadas
 
