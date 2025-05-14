@@ -5,12 +5,14 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
+  background-color: #f4f8f5;
+  /* verde esmeralda suave */
+  color: #222;
 }
 
 header {
-  background-color: #000;
+  background-color: #011e14;
+  /* verde oscuro profundo */
   color: white;
   display: flex;
   justify-content: space-between;
@@ -44,10 +46,31 @@ nav {
   margin-top: 100px;
   background: url('img/banner.jpg') center/cover no-repeat;
   color: white;
-  padding: 300px 20px;
-  /* antes era 120px */
+  padding: 180px 20px;
   text-align: center;
   position: relative;
+}
+
+.banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.banner h1,
+.banner p {
+  position: relative;
+  z-index: 2;
+  animation: fadeInUp 1.2s ease-out both;
+}
+
+.banner p {
+  animation-delay: 0.3s;
 }
 
 @keyframes fadeInUp {
@@ -62,35 +85,6 @@ nav {
   }
 }
 
-.banner h1,
-.banner p {
-  position: relative;
-  z-index: 2;
-  animation: fadeInUp 1.2s ease-out both;
-}
-
-.banner p {
-  animation-delay: 0.3s;
-}
-
-.banner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
-  /* oscurece la imagen */
-  z-index: 1;
-}
-
-.banner h1,
-.banner p {
-  position: relative;
-  z-index: 2;
-}
-
 .section {
   padding: 40px 20px;
   max-width: 1100px;
@@ -99,6 +93,8 @@ nav {
 
 .section h2 {
   text-align: center;
+  color: #8a1538;
+  /* rojo vino */
 }
 
 .productos,
@@ -139,7 +135,8 @@ nav {
 }
 
 .formulario button {
-  background-color: #007f5f;
+  background-color: #8a1538;
+  /* rojo vino */
   color: white;
   padding: 10px 20px;
   border: none;
@@ -148,7 +145,7 @@ nav {
 }
 
 footer {
-  background-color: #000;
+  background-color: #011e14;
   color: white;
   text-align: center;
   padding: 20px;
@@ -157,6 +154,7 @@ footer {
 .redes i {
   margin: 0 10px;
   font-size: 24px;
+  color: #8a1538;
 }
 
 .whatsapp-btn {
